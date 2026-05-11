@@ -371,9 +371,7 @@ export default function Home() {
 
           <div className="relative z-20 mx-auto grid w-full max-w-6xl flex-1 items-center gap-12 lg:grid-cols-[0.9fr_1.1fr]">
             <ScrollReveal distance={56} exitDistance={40} intensity="strong" rotate>
-              <p className="mb-4 inline-flex rounded-lg border border-white/20 bg-white/8 px-4 py-2 text-xs font-semibold uppercase tracking-[0.15em] text-white/80 backdrop-blur-md">
-                Development
-              </p>
+              
               <h2 className="mt-6 font-display text-4xl font-bold leading-tight text-white drop-shadow-[0_4px_16px_rgba(15,23,42,0.3)] sm:text-5xl">
                 Professional Growth & Experience
               </h2>
@@ -407,7 +405,7 @@ export default function Home() {
                       {activeDevelopmentCard.meta.map((item) => (
                         <span
                           key={item}
-                          className="rounded-full bg-white/45 px-3 py-1 text-xs font-bold text-slate-800"
+                          className="rounded-full bg-white/45 px-3 py-1 text-xs font-bold text-slate-800 "
                         >
                           {item}
                         </span>
@@ -537,9 +535,7 @@ export default function Home() {
 
           <div className="relative z-20 mx-auto flex w-full max-w-6xl flex-1 flex-col justify-center">
             <ScrollReveal className="max-w-3xl" distance={56} exitDistance={36} intensity="strong" rotate>
-              <p className="inline-flex rounded-lg border border-white/20 bg-white/8 px-4 py-2 text-xs font-semibold uppercase tracking-[0.15em] text-white/80 backdrop-blur-md">
-                {/* Portfolio */}
-              </p>
+              
               <h2 className="mt-6 font-display text-4xl font-bold leading-tight text-white drop-shadow-[0_4px_16px_rgba(15,23,42,0.3)] sm:text-5xl">
                 Technical Projects & Solutions
               </h2>
