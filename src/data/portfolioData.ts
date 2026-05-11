@@ -1,6 +1,5 @@
 import {
   BriefcaseBusiness,
-  Code2,
   FolderKanban,
   GraduationCap,
   Home,

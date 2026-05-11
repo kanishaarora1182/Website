@@ -7,6 +7,7 @@ import {
   useTransform
 } from "framer-motion";
 import Image from "next/image";
+import { ThreeSun } from "./ThreeSun";
 import { contentAssets } from "@/data/portfolioData";
 
 const codeLines = [
@@ -215,7 +216,7 @@ export function CinematicSky() {
         }
       >
         <span className="journey-sun-rays" />
-        <span className="journey-sun-core" />
+        <ThreeSun />
       </motion.div>
 
       <motion.div

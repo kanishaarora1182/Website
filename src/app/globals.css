@@ -82,6 +82,37 @@ body {
   border-radius: 999px;
 }
 
+.three-sun {
+  position: relative;
+  z-index: 2;
+  grid-area: 1 / 1;
+  width: 86%;
+  aspect-ratio: 1;
+  border-radius: 999px;
+  overflow: visible;
+}
+
+.three-sun canvas {
+  position: relative;
+  z-index: 2;
+  width: 100% !important;
+  height: 100% !important;
+  filter:
+    drop-shadow(0 0 24px rgba(253, 224, 71, 0.72))
+    drop-shadow(0 0 54px rgba(251, 146, 60, 0.5));
+}
+
+.three-sun-fallback {
+  position: absolute;
+  inset: 19%;
+  z-index: 1;
+  border-radius: 999px;
+  background: radial-gradient(circle at 34% 30%, #fffde7 0 12%, #fde047 30%, #f97316 72%);
+  box-shadow:
+    0 0 52px rgba(253, 224, 71, 0.85),
+    0 0 110px rgba(251, 146, 60, 0.58);
+}
+
 .journey-sun-core {
   width: 62%;
   aspect-ratio: 1;
