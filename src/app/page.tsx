@@ -405,7 +405,7 @@ export default function Home() {
                       {activeDevelopmentCard.meta.map((item) => (
                         <span
                           key={item}
-                          className="rounded-full bg-white/45 px-3 py-1 text-xs font-bold text-slate-800 "
+                          className="rounded-full bg-white/45 px-3 py-1 text-xs font-bold text-slate-800"
                         >
                           {item}
                         </span>
@@ -420,7 +420,7 @@ export default function Home() {
             </ScrollReveal>
 
             <div>
-              <div className="grid gap-4 sm:grid-cols-2">
+              <div className="grid gap-4 sm:grid-cols-2 backdrop-blur-xl">
                 {developmentCards.map((card, index) => {
                   const Icon = card.icon;
                   const isActive = card.id === activeDevelopment;
@@ -469,8 +469,8 @@ export default function Home() {
               </div>
 
               <ScrollReveal distance={40} exitDistance={24} intensity="strong" scale>
-                <GlassCard className="mt-4 p-4">
-                  <div className="flex max-h-36 flex-wrap gap-2 overflow-hidden">
+                <GlassCard className="mt-4 p-4 ">
+                  <div className="flex max-h-36 flex-wrap gap-2 overflow-hidden ">
                     {technicalSkills.map((skill) => (
                       <span
                         key={skill}

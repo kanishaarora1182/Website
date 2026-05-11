@@ -130,12 +130,12 @@ export const developmentCards: DevelopmentCard[] = [
   },
   {
     id: "skills",
-    title: "Technical Skills",
-    eyebrow: "Languages, systems, and tools",
-    meta: ["Software", "Security", "Simulation", "Embedded"],
+    title: "Additional Experience & Projects",
+    eyebrow: "Campus Work, Co-op Credit & Software Projects",
+    meta: ["May 2024 - Present"],
     description:
-      "Python, Java, C, C++, SQL, JavaScript, HTML, CSS, React, Next.js, Node.js, Streamlit, Pandas, REST APIs, Firebase, Clerk, Git, VS Code, MATLAB, DRL, anomaly detection, PCAP/DNS analysis, Linux, Windows, macOS, ESP32, BLE, and Wi-Fi video streaming.",
-    icon: Code2
+      "Kids Camp Counselor at UToledo Recreational Services, completed an Academic Industry Immersion Seminar designing an SQL database and building a Python ETL workflow, and built Invest-In-Box and Tech Market software projects involving Python, SQL, API integration, Firebase, Clerk authentication, full-stack development, and AI-powered profile evaluation using Llama/OpenAI models.",
+    icon: BriefcaseBusiness
   }
 ];
 
