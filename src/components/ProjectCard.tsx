@@ -10,7 +10,7 @@ type ProjectCardProps = {
 };
 
 export function ProjectCard({ project, index }: ProjectCardProps) {
-  return (
+  const content = (
     <GlassCard
       tone="warm"
       className="group flex h-full flex-col gap-5 p-6 hover:border-blue-400/24"
@@ -48,5 +48,21 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
         ))}
       </div>
     </GlassCard>
+  );
+
+  if (!project.url) {
+    return content;
+  }
+
+  return (
+    <a
+      href={project.url}
+      target="_blank"
+      rel="noreferrer"
+      aria-label={`Open ${project.title} project website`}
+      className="block h-full focus:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+    >
+      {content}
+    </a>
   );
 }

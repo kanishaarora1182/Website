@@ -32,6 +32,7 @@ export type Project = {
   id: string;
   title: string;
   award?: string;
+  url?: string;
   category: ProjectCategory;
   tags: string[];
   description: string;
@@ -182,6 +183,7 @@ export const projects: Project[] = [
     id: "rc-trailer-jack",
     title: "RC Trailer Jack",
     award: "1st Place, 2026 KEEN Senior Design Capstone Project Competition",
+    url: "https://rc-trailer-jack.vercel.app/",
     category: "embedded",
     featured: true,
     tags: ["ESP32", "BLE", "Motor control", "Android", "Video streaming"],
