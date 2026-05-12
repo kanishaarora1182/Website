@@ -37,6 +37,12 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
         </p>
       ) : null}
       <p className="text-sm leading-6 text-slate-900/82">{project.description}</p>
+      {project.url ? (
+        <span className="mt-1 inline-flex w-fit items-center gap-2 rounded-lg border border-white/18 bg-white/12 px-3 py-2 text-sm font-semibold text-white/86 transition group-hover:border-blue-300/34 group-hover:bg-blue-400/16 group-hover:text-white">
+          View Website
+          <ArrowUpRight size={16} aria-hidden="true" />
+        </span>
+      ) : null}
       <div className="mt-auto flex flex-wrap gap-2 pt-1">
         {project.tags.map((tag) => (
           <span
