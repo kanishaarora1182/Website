@@ -239,7 +239,7 @@ export const contact = {
   email: "Nfn.Kanisha@rockets.utoledo.edu",
   phone: "+1-419-392-7405",
   social: {
-    linkedin: "https://www.linkedin.com/in/kanisha-arora",
-    github: "https://github.com/kanishaarora"
+    linkedin: "https://www.linkedin.com/in/kanisha-arora1182/",
+    github: "https://github.com/kanishaarora1182/"
   }
 };
