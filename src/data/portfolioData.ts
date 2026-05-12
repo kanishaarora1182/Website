@@ -80,9 +80,9 @@ export const hero = {
   name: "Kanisha Arora",
   subtitle: "Computer Science & Engineering Student",
   intro:
-    "I build practical software, research-driven systems, and interactive technology solutions across web development, cybersecurity, simulation, and embedded systems.",
+    "Hi, I'm Kanisha, a Computer Science & Engineering student at the University of Toledo with a strong interest in software development, research, cybersecurity, data systems, and embedded technology. I enjoy building practical solutions that connect code with real-world engineering problems — from deep reinforcement learning research and cybersecurity simulations to full-stack dashboards and IoT-based control systems.",
   about:
-    "I am a Computer Science & Engineering student at the University of Toledo who enjoys building systems that connect software, security, data, and hardware into useful real-world tools.",
+    "I’m a Computer Science & Engineering student at the University of Toledo with experience in software development, research, cybersecurity, data systems, and embedded IoT projects. I enjoy building practical systems — from deep reinforcement learning simulations and network security tools to full-stack dashboards and smartphone-controlled hardware. My goal is to grow as an engineer by creating technology that solves real problems.",
   skillsPreview: [
     "Full-stack web apps",
     "Cybersecurity analysis",
@@ -106,7 +106,7 @@ export const developmentCards: DevelopmentCard[] = [
     eyebrow: education.school,
     meta: [education.degree, education.gpa, education.graduation],
     description:
-      "Building a foundation across software engineering, computer systems, data, security, and practical engineering design.",
+      "• Studying Computer Science & Engineering with a focus on software, data, systems, and cybersecurity.\n• Gaining hands-on experience through research, full-stack projects, and embedded IoT systems.\n• Applying technical concepts to real-world engineering problems through coursework and project work.",
     icon: GraduationCap
   },
   {
@@ -115,7 +115,7 @@ export const developmentCards: DevelopmentCard[] = [
     eyebrow: "Deep Reinforcement Learning for Electric Ships",
     meta: ["University of Toledo, EECS Department", "May 2026 - Present"],
     description:
-      "Working on simulation workflows, DRL training/testing, reward trends, system-response analysis, and evaluation outputs.",
+      "I am currently working as a Research Co-op at the University of Toledo on a federally funded project focused on Deep Reinforcement Learning for electric ship energy and control systems. My role involves studying simulation workflows, running and modifying DRL training and testing processes, analyzing reward trends, evaluating system responses, and working with faculty and graduate mentors to understand technical challenges in advanced control systems.",
     icon: BriefcaseBusiness
   },
   {
@@ -124,7 +124,7 @@ export const developmentCards: DevelopmentCard[] = [
     eyebrow: "Cybersecurity of Smart Grids",
     meta: ["May 2025 - Aug 2025"],
     description:
-      "Studied cybersecurity vulnerabilities in hydrogen-based integrated energy systems using simulation and digital twin models.",
+    "Conducted research on cybersecurity vulnerabilities in hydrogen-based Integrated Energy Systems using simulation and digital twin models. The project focused on designing simulated cyber-attack scenarios, identifying abnormal system behavior through anomaly-detection logic, evaluating system stability under attack conditions, and presenting mitigation strategies through a technical report and research presentation.",
     icon: ShieldCheck
   },
   {
@@ -133,7 +133,7 @@ export const developmentCards: DevelopmentCard[] = [
     eyebrow: "Campus Work, Co-op Credit & Software Projects",
     meta: ["May 2024 - Present"],
     description:
-      "Kids Camp Counselor at UToledo Recreational Services, completed an Academic Industry Immersion Seminar designing an SQL database and building a Python ETL workflow, and built Invest-In-Box and Tech Market software projects involving Python, SQL, API integration, Firebase, Clerk authentication, full-stack development, and AI-powered profile evaluation using Llama/OpenAI models.",
+      "Kids Camp Counselor at UToledo Recreational Services. Completed an Academic Industry Immersion Seminar designing an SQL database and building a Python ETL workflow. Built Invest-In-Box and Tech Market software projects involving Python, SQL, API integration, Firebase, Clerk authentication, full-stack development, and AI-powered profile evaluation using Llama/OpenAI models.",
     icon: BriefcaseBusiness
   }
 ];
